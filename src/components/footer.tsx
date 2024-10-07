@@ -1,11 +1,7 @@
-interface FooterComponentProps {};
-
-const FooterComponent : React.FC<FooterComponentProps> = () => {
+export default function FooterComponent () {
     return (
         <div className="footer">
             © Copyright 2024. No Rights Reserved.
         </div>
     );
 }
-
-export default FooterComponent;

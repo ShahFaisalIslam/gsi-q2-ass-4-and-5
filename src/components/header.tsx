@@ -1,6 +1,4 @@
-interface HeaderComponentProps {};
-
-const HeaderComponent : React.FC<HeaderComponentProps> = () => {
+export default function HeaderComponent () {
     return(
         <div className="header">
             <span>Weaponry</span>
@@ -13,5 +11,3 @@ const HeaderComponent : React.FC<HeaderComponentProps> = () => {
         </div>
     );
 }
-
-export default HeaderComponent;
