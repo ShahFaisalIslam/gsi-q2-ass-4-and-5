@@ -2,31 +2,4 @@
 @tailwind components;
 @tailwind utilities;
 
-.header {
-  display: flex;
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-  /* color: crimson; */
-  background-color: rgb(46, 46, 46);
-  justify-content: space-between;
-}
 
-.header-items {
-  display: flex;
-  gap: 1rem;
-}
-
-.footer {
-  display: flex;
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-  padding-top: 0.4rem;
-  padding-bottom: 0.4rem;
-  /* color: crimson; */
-  /* background-color: black; */
-  background-color: rgb(27, 27, 27);
-  justify-content: center;
-  font-style: italic;
-}

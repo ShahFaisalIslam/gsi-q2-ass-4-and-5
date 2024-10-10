@@ -1,13 +1,16 @@
+import Link from "next/link"
+import styles from "@/components/header.module.css"
+
 export default function HeaderComponent () {
     return(
-        <div className="header">
-            <span>Weaponry</span>
-            <ul className="header-items">
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Jobs</li>
+        <div className={styles["header"]}>
+            <ul className={styles["header-items"]}>
+                <li>Morning</li>
+                <li>Day</li>
+                <li>Evening</li>
+                <li>Night</li>
             </ul>
+            <Link href="/" >Everyday Life</Link>
         </div>
     );
 }
