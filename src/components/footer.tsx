@@ -17,7 +17,6 @@ export default function FooterComponent() {
                 </ul>
             </div>
             <ul className={headerStyles["header-items"]}>
-                <li>Home</li>
                 <li>About</li>
                 <li>Contact</li>
             </ul>
