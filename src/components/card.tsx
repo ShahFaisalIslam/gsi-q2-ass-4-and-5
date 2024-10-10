@@ -1,4 +1,5 @@
 import styles from "@/components/card.module.css"
+import Link from "next/link";
 
 const CardTitle  = ({children}: Readonly<{
     children: React.ReactNode;
@@ -15,10 +16,12 @@ const CardDescription = ({children}: Readonly<{
             <p className={styles["card-description"]}>{children}</p>
     )
 }
-
-const CardButton = () => {
+interface CardButtonProps {
+    link: string;
+};
+const CardButton = (props: CardButtonProps) => {
     return (
-        <button className={styles["card-button"]}>Read More</button>
+        <button className={styles["card-button"]}><Link href={props.link}>Read More</Link></button>
     );
 }
 
