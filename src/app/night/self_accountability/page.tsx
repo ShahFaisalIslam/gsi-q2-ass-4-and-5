@@ -6,7 +6,7 @@ export default function SelfAccountabilityPage() {
             <ArticleImage src="/diary.jpg" alt="Diary" />
             <ArticleTitle>Self-Accountability</ArticleTitle>
             <ArticleContent>
-                <ArticleQuote cite="https://www.inc.com/gordon-tredgold/49-quotes-that-will-help-you-avoid-the-blame-game.html" >Wisdom stems from personal accountability. We all make mistakes; own them... learn from them. Don't throw away the lesson by blaming others. - Steve Maraboli</ArticleQuote>
+                <ArticleQuote cite="https://www.inc.com/gordon-tredgold/49-quotes-that-will-help-you-avoid-the-blame-game.html" >Wisdom stems from personal accountability. We all make mistakes; own them... learn from them. Don&apos;t throw away the lesson by blaming others. - Steve Maraboli</ArticleQuote>
                 <ArticleBlock>
                     <p>Self-accountability is a crucial aspect of personal development, influencing our decisions, behaviors, and overall well-being. While many discussions about accountability focus on daytime activities—work, social interactions, and responsibilities—the significance of self-accountability during the night is equally vital. The evening hours can provide a unique opportunity for reflection, planning, and commitment to personal goals. Here, we explore the importance of self-accountability at night and how it can enhance our lives.</p>
 
