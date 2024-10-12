@@ -1,0 +1,29 @@
+
+.contact-form > input{
+    padding: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact-form > textarea {
+    padding: 0.2rem;
+    width: 255px;
+    height: 350px;
+    resize: none;
+}
+
+.submit {
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    background-color: #F5AB00;
+}
+
+@media only screen and (min-width:996px) {
+    .contact-form > textarea {
+        width: 500px;
+        height: 250px;
+    }
+}

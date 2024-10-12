@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "@/components/footer.module.css"
 import headerStyles from "@/components/header.module.css"
+import Link from "next/link";
 export default function FooterComponent() {
     return (
         <div className={styles["footer"]}>
@@ -17,8 +18,8 @@ export default function FooterComponent() {
                 </ul>
             </div>
             <ul className={headerStyles["header-items"]}>
-                <li>About</li>
-                <li>Contact</li>
+                <li><Link href="/about">About</Link></li>
+                <li><Link href="/contact">Contact</Link></li>
             </ul>
         </div>
     );
