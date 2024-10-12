@@ -12,7 +12,7 @@ export default function ContactPage() {
         alert(`Thank you for contacting us, ${nameElement.value}!`);
     }
     return (
-        <div className="flex flex-col mb-auto p-4 w-full">
+        <div className="flex flex-col mb-auto p-5 w-full">
                 <h1 className="text-4xl font-bold mb-4">Contact</h1>
                 <form className={styles["contact-form"]} onSubmit={handleSubmit}>
                     <input name="name" required type="text" placeholder="Name" /><br />

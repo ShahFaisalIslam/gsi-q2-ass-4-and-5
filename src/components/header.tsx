@@ -1,5 +1,6 @@
 import Link from "next/link"
 import styles from "@/components/header.module.css"
+import Image from "next/image";
 
 export default function HeaderComponent () {
     return(
@@ -10,7 +11,7 @@ export default function HeaderComponent () {
                 <li><Link href="/evening">Evening</Link></li>
                 <li><Link href="/night">Night</Link></li>
             </ul>
-            <Link href="/" >Everyday Life</Link>
+            <Link href="/" className={styles["header-logo"]} ><Image src="/everyday_life_2.png" alt="Everyday Life" fill style={{objectFit : "cover"}} /></Link>
         </div>
     );
 }

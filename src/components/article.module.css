@@ -1,0 +1,46 @@
+.article-contents {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: 100%;
+}
+
+.article-contents > blockquote > h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.article-contents > blockquote > ol {
+    padding-left: 1rem;
+    list-style: decimal;
+}
+
+.article-contents > blockquote > ul {
+    padding-left: 1rem;
+    list-style: disc;
+}
+
+.article-contents > blockquote > ul > li {
+    margin-bottom: 0.2rem;
+}
+
+.article-contents > blockquote > ol > li {
+    margin-bottom: 0.2rem;
+}
+
+.article-quote {
+    padding: 2rem; /*p-8*/
+    border-inline-start-width: 4px; /*border-s-4*/
+    background-color: rgba(255, 231, 173, 0.445);
+    border-color: #F5AB00;
+    margin-bottom: 0.75rem;
+  }
+  
+
+@media only screen and (min-width: 730px) {
+    .article-contents {
+        width: 75%;
+    }
+}

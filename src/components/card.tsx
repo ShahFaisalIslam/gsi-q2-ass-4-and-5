@@ -1,4 +1,5 @@
 import styles from "@/components/card.module.css"
+import Image from "next/image";
 import Link from "next/link";
 
 const CardTitle  = ({children}: Readonly<{
@@ -30,13 +31,31 @@ const Card = ({children}: Readonly<{
   }>) => {
     return(
         <div className={styles["card"]}>
-            <div className={styles["card-image"]}></div>
             {children}
-            {/*<h1 className="card-title">{props.title}</h1>
-            <p className="card-description">{props.description}</p> */}
-            {/* <button className="card-button">Read More</button> */}
         </div>
     );
 }
 
-export {Card,CardButton,CardDescription,CardTitle};
+const CardContent = ({children}: Readonly<{
+    children: React.ReactNode
+}>) => {
+    return(
+        <div className="h-[6rem]">
+            {children}
+        </div>
+    );
+}
+
+interface CardImageProps {
+    src: string;
+    alt: string;
+}
+const CardImage = (props: CardImageProps) => {
+    return (
+        <div className={styles["card-image"]}>
+            <Image src={props.src} alt={props.alt} fill style={{objectFit:"cover"}} />
+        </div>
+    );
+}
+
+export {Card,CardButton,CardImage,CardContent,CardDescription,CardTitle};

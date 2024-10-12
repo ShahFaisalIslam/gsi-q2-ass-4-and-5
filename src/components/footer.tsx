@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function FooterComponent() {
     return (
         <div className={styles["footer"]}>
-            <div className="text-center">
+            <div className="text-center ml-2">
                 © Copyright 2024. No Rights Reserved.
             </div>
             <div className="flex items-center gap-4">
