@@ -1,4 +1,4 @@
-import { Card, CardButton, CardContent, CardDescription, CardImage, CardTitle } from "@/components/card";
+import { Card, CardButton, CardDescription, CardImage, CardTitle } from "@/components/card";
 import Data from "@/data";
 
 export default function MorningPage() {

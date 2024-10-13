@@ -36,16 +36,6 @@ const Card = ({children}: Readonly<{
     );
 }
 
-const CardContent = ({children}: Readonly<{
-    children: React.ReactNode
-}>) => {
-    return(
-        <div className="h-[6rem]">
-            {children}
-        </div>
-    );
-}
-
 interface CardImageProps {
     src: string;
     alt: string;
@@ -58,4 +48,4 @@ const CardImage = (props: CardImageProps) => {
     );
 }
 
-export {Card,CardButton,CardImage,CardContent,CardDescription,CardTitle};
+export {Card,CardButton,CardImage,CardDescription,CardTitle};
